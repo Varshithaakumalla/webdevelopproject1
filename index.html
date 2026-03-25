@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="resume">
+
+  <!-- HEADER -->
+  <h1 class="name" id="name">YOUR NAME</h1>
+
+  <div class="contact">
+    <span id="email">email@gmail.com</span>
+    <span id="phone">+91 XXXXXXXX</span>
+  </div>
+
+  <!-- OBJECTIVE -->
+  <h3>CAREER OBJECTIVE</h3>
+  <p id="objective">
+    Your career objective will appear here...
+  </p>
+
+  <!-- EDUCATION -->
+  <h3>EDUCATION</h3>
+  <div id="education">
+    <p><strong>College Name</strong> | 2023 - 2027</p>
+    <p>Degree Details</p>
+  </div>
+
+  <!-- WORK EXPERIENCE -->
+  <h3>WORK EXPERIENCE</h3>
+  <div id="experience">
+    <p><strong>Company Name</strong></p>
+    <ul>
+      <li>Work description</li>
+    </ul>
+  </div>
+
+  <!-- SKILLS -->
+  <h3>TECHNICAL SKILLS</h3>
+  <p id="skills">Skills here...</p>
+
+  <!-- PROJECTS -->
+  <h3>PROJECTS</h3>
+  <p id="projects">Project details...</p>
+
+  <!-- STRENGTHS -->
+  <h3>STRENGTHS</h3>
+  <ul id="strengths">
+    <li>Quick learner</li>
+  </ul>
+
+  <!-- DECLARATION -->
+  <h3>DECLARATION</h3>
+  <p>
+    I hereby declare that the above information is true and correct to the best of my knowledge.
+  </p>
+
+  <div class="footer">
+    <span id="date">Date: --/--/----</span>
+    <span id="signature">Your Name</span>
+  </div>
+
+</div>
+
+<!-- FORM -->
+<div class="form">
+  <h2>Fill Resume Details</h2>
+
+  <form id="resumeForm">
+    <input type="text" id="inputName" placeholder="Full Name" required>
+    <input type="text" id="inputEmail" placeholder="Email" required>
+    <input type="text" id="inputPhone" placeholder="Phone" required>
+
+    <input type="text" id="inputObjective" placeholder="Career Objective" required>
+    <input type="text" id="inputEducation" placeholder="Education" required>
+    <input type="text" id="inputExperience" placeholder="Experience" required>
+    <input type="text" id="inputSkills" placeholder="Skills (comma separated)" required>
+    <input type="text" id="inputProjects" placeholder="Projects" required>
+    <input type="text" id="inputStrengths" placeholder="Strengths (comma separated)" required>
+
+    <button type="submit">Generate Resume</button>
+  </form>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
